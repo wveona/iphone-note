@@ -17,6 +17,7 @@
 		88D57BC028EC993F006258A8 /* noteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BBF28EC993F006258A8 /* noteUITestsLaunchTests.swift */; };
 		88D57BCD28ED3652006258A8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BCC28ED3652006258A8 /* MainListView.swift */; };
 		88D57BD128ED371E006258A8 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD028ED371E006258A8 /* Memo.swift */; };
+		88D57BD328EDE952006258A8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD228EDE952006258A8 /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		88D57BBF28EC993F006258A8 /* noteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		88D57BCC28ED3652006258A8 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		88D57BD028ED371E006258A8 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		88D57BD228EDE952006258A8 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				88D57BD028ED371E006258A8 /* Memo.swift */,
+				88D57BD228EDE952006258A8 /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D57BA728EC993F006258A8 /* Persistence.swift in Sources */,
+				88D57BD328EDE952006258A8 /* MemoStore.swift in Sources */,
 				88D57BCD28ED3652006258A8 /* MainListView.swift in Sources */,
 				88D57B9E28EC993D006258A8 /* noteApp.swift in Sources */,
 				88D57BAA28EC993F006258A8 /* note.xcdatamodeld in Sources */,
