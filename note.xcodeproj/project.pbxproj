@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		88D57B9E28EC993D006258A8 /* noteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57B9D28EC993D006258A8 /* noteApp.swift */; };
-		88D57BA028EC993D006258A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57B9F28EC993D006258A8 /* ContentView.swift */; };
 		88D57BA228EC993F006258A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D57BA128EC993F006258A8 /* Assets.xcassets */; };
 		88D57BA528EC993F006258A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D57BA428EC993F006258A8 /* Preview Assets.xcassets */; };
 		88D57BA728EC993F006258A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BA628EC993F006258A8 /* Persistence.swift */; };
@@ -16,6 +15,7 @@
 		88D57BB428EC993F006258A8 /* noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BB328EC993F006258A8 /* noteTests.swift */; };
 		88D57BBE28EC993F006258A8 /* noteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BBD28EC993F006258A8 /* noteUITests.swift */; };
 		88D57BC028EC993F006258A8 /* noteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BBF28EC993F006258A8 /* noteUITestsLaunchTests.swift */; };
+		88D57BCD28ED3652006258A8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BCC28ED3652006258A8 /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		88D57B9A28EC993D006258A8 /* note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D57B9D28EC993D006258A8 /* noteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteApp.swift; sourceTree = "<group>"; };
-		88D57B9F28EC993D006258A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88D57BA128EC993F006258A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88D57BA428EC993F006258A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88D57BA628EC993F006258A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		88D57BB928EC993F006258A8 /* noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D57BBD28EC993F006258A8 /* noteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteUITests.swift; sourceTree = "<group>"; };
 		88D57BBF28EC993F006258A8 /* noteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88D57BCC28ED3652006258A8 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 		88D57B9C28EC993D006258A8 /* note */ = {
 			isa = PBXGroup;
 			children = (
+				88D57BCF28ED36A5006258A8 /* Memory */,
+				88D57BCE28ED3698006258A8 /* CoreData */,
 				88D57B9D28EC993D006258A8 /* noteApp.swift */,
-				88D57B9F28EC993D006258A8 /* ContentView.swift */,
+				88D57BCC28ED3652006258A8 /* MainListView.swift */,
 				88D57BA128EC993F006258A8 /* Assets.xcassets */,
-				88D57BA628EC993F006258A8 /* Persistence.swift */,
-				88D57BA828EC993F006258A8 /* note.xcdatamodeld */,
 				88D57BA328EC993F006258A8 /* Preview Content */,
 			);
 			path = note;
@@ -131,6 +131,22 @@
 				88D57BBF28EC993F006258A8 /* noteUITestsLaunchTests.swift */,
 			);
 			path = noteUITests;
+			sourceTree = "<group>";
+		};
+		88D57BCE28ED3698006258A8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				88D57BA628EC993F006258A8 /* Persistence.swift */,
+				88D57BA828EC993F006258A8 /* note.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		88D57BCF28ED36A5006258A8 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D57BA728EC993F006258A8 /* Persistence.swift in Sources */,
-				88D57BA028EC993D006258A8 /* ContentView.swift in Sources */,
+				88D57BCD28ED3652006258A8 /* MainListView.swift in Sources */,
 				88D57B9E28EC993D006258A8 /* noteApp.swift in Sources */,
 				88D57BAA28EC993F006258A8 /* note.xcdatamodeld in Sources */,
 			);
