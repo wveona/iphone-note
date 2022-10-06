@@ -19,6 +19,7 @@
 		88D57BD128ED371E006258A8 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD028ED371E006258A8 /* Memo.swift */; };
 		88D57BD328EDE952006258A8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD228EDE952006258A8 /* MemoStore.swift */; };
 		88D57BD628EEB575006258A8 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD528EEB575006258A8 /* MemoCell.swift */; };
+		88D57BD828EEB65F006258A8 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D57BD728EEB65F006258A8 /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		88D57BD028ED371E006258A8 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		88D57BD228EDE952006258A8 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		88D57BD528EEB575006258A8 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		88D57BD728EEB65F006258A8 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,6 @@
 				88D57BCF28ED36A5006258A8 /* Memory */,
 				88D57BCE28ED3698006258A8 /* CoreData */,
 				88D57B9D28EC993D006258A8 /* noteApp.swift */,
-				88D57BCC28ED3652006258A8 /* MainListView.swift */,
 				88D57BA128EC993F006258A8 /* Assets.xcassets */,
 				88D57BA328EC993F006258A8 /* Preview Content */,
 			);
@@ -162,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				88D57BD528EEB575006258A8 /* MemoCell.swift */,
+				88D57BCC28ED3652006258A8 /* MainListView.swift */,
+				88D57BD728EEB65F006258A8 /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				88D57BD328EDE952006258A8 /* MemoStore.swift in Sources */,
 				88D57BCD28ED3652006258A8 /* MainListView.swift in Sources */,
 				88D57B9E28EC993D006258A8 /* noteApp.swift in Sources */,
+				88D57BD828EEB65F006258A8 /* ComposeView.swift in Sources */,
 				88D57BAA28EC993F006258A8 /* note.xcdatamodeld in Sources */,
 				88D57BD128ED371E006258A8 /* Memo.swift in Sources */,
 			);
